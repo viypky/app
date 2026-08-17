@@ -1,4 +1,4 @@
-1.
+# 1.
 # class Product:
 #     def __init__(self, name, price, quantity, category):
 #         self.name = name
