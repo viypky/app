@@ -26,3 +26,18 @@
 #         if self.quantity > 0:
 #             return True
 #         return False
+
+
+# class User:
+#     def __init__(self, name, email, balance):
+#         self.name = name
+#         self.email = email
+#         self.balance = balance
+
+#     def add_balance(self, amount):
+#         self.balance += amount
+
+#     def show_info(self):
+#         print("Имя:", self.name)
+#         print("Email:", self.email)
+#         print("Баланс:", self.balance)
