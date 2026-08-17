@@ -70,31 +70,31 @@
 # make_animal_speak(Owl())
 # make_animal_speak(Mowse())
 
-class Payment:
-    def __init__(self, amount):
-        self.amount = amount
+# class Payment:
+#     def __init__(self, amount):
+#         self.amount = amount
 
-    def pay(self):
-        print(f"Оплата на сумму {self.amount} прошла успешно")
+#     def pay(self):
+#         print(f"Оплата на сумму {self.amount} прошла успешно")
 
-class Cardayment(Payment):
-    def pay(self):
-        print(f"Оплата картой : {self.amount}  прошла успешно") 
+# class Cardayment(Payment):
+#     def pay(self):
+#         print(f"Оплата картой : {self.amount}  прошла успешно") 
 
-class CashPayment(Payment):
-    def pay(self):
-        print(f"Оплата наличными : {self.amount}  прошла успешно") 
+# class CashPayment(Payment):
+#     def pay(self):
+#         print(f"Оплата наличными : {self.amount}  прошла успешно") 
 
 
-class QRPayment(Payment):
-    def pay(self):
-        print(f"Оплата QR : {self.amount}  прошла успешно")   
+# class QRPayment(Payment):
+#     def pay(self):
+#         print(f"Оплата QR : {self.amount}  прошла успешно")   
 
-def checkout (payment: Payment):
-    payment.pay()
+# def checkout (payment: Payment):
+#     payment.pay()
 
-payments = [
-    Cardayment(100)
-    CashPayment(200)
-    QRPayment(500)
-]
+# payments = [
+#     Cardayment(100)
+#     CashPayment(200)
+#     QRPayment(500)
+# ]
